@@ -32,7 +32,7 @@ reddit = praw.Reddit(client_id='your_client_id',
                      client_secret='your_client_secret',
                      user_agent='your_user_agent')
 ```
-6. cessing Reddit Data:
+6. Acessing Reddit Data:
 Now, you can use the reddit object to access various functionalities of the Reddit API, such as reading posts, comments, and other data from specific subreddits.
 ```
 subreddit = reddit.subreddit("stocks")
