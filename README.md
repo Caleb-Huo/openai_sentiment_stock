@@ -23,7 +23,8 @@ Copy code
 pip install praw
 ```
 5. Set Up PRAW in Your Python Script:
-Use the client_id, client_secret, and a user_agent to set up PRAW:
+Use the client_id, client_secret, and a user_agent to set up PRAW. Replace 'your_client_id', 'your_client_secret', and 'your_user_agent' with your actual credentials and a descriptive user agent.
+
 ```
 import praw
 
@@ -31,7 +32,6 @@ reddit = praw.Reddit(client_id='your_client_id',
                      client_secret='your_client_secret',
                      user_agent='your_user_agent')
 ```
-Replace 'your_client_id', 'your_client_secret', and 'your_user_agent' with your actual credentials and a descriptive user agent.
 6. cessing Reddit Data:
 Now, you can use the reddit object to access various functionalities of the Reddit API, such as reading posts, comments, and other data from specific subreddits.
 ```
